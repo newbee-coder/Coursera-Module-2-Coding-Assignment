@@ -1,0 +1,122 @@
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+div {
+  border: 5px solid;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#first {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 25%;
+  float: left;
+}
+#first1 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 25%;
+  float: left;
+}
+#first2 {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 25%;
+  float: left;
+}
+#first {
+  height: 400px;
+  width: 400px;
+}
+#first1 {
+  height: 400px;
+  width: 400px;
+}
+#first2 {
+  height: 400px;
+  width: 400px;
+}
+div#first {
+  margin: 0px;
+  border: none;
+}
+div#first1 {
+  margin: 0px;
+  border: none;
+}
+div#first2 {
+  margin: 0px;
+  border: none;
+}
+div#content {
+  margin-top: 0px;
+  margin-right: 50px;
+  background-color: grey;
+}
+div#content1 {
+  margin: 5px;
+  background-color: grey;
+}
+div#content2 {
+  margin-top: 0px;
+  margin-left: 50px;
+  background-color: grey;
+}
+div#second {
+  height: 30px;
+  width: 150px;
+  background-color: pink;
+  border: solid;
+  float: right;
+  font-size: 1.5em;
+  text-align: center;
+}
+div#second1 {
+  height: 30px;
+  width: 150px;
+  background-color: red;
+  border: solid;
+  float: right;
+  font-size: 1.5em;
+  text-align: center;
+}
+div#second2 {
+  height: 30px;
+  width: 150px;
+  background-color: yellow;
+  border: solid;
+  float: right;
+  font-size: 1.5em;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  div#content {
+    width: 80%;
+  }
+  div#content1 {
+    width: 80%;
+  }
+  div#content2 {
+    width: 80%;
+  }
+}
+@media (min-width: 922px) and (max-width: 1199) {
+  div#content {
+    width: 50%;
+  }
+  div#content1 {
+    width: 50%;
+  }
+  div#content2 {
+    width: 50%;
+    margin-top: none;
+  }
+}
